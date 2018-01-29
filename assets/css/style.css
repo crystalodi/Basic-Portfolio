@@ -1,0 +1,12 @@
+
+#contentArea {
+    width:960px;
+}
+#aboutMe {
+    width:650px;
+    background-color:white;
+}
+.clearfix::after {
+    clear:both;
+    display:both;
+}
