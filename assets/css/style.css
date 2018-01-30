@@ -6,8 +6,38 @@ body {
 }
 header {
 	background-color:white;
+	border-bottom: 3px solid #cccccc;
+	height:100px;
+	margin:0;
+}
+#main-name-header {
+	background-color: #4fa9a4;
+	width:9%;
+	font-size: 28px;
+	font-weight:bold;
+	font-family: "Georgia",Times New Roman,Times,serif;
+	color:white;
+}
+#connect-with-me,
+#about-me {
+	float:left;
+}
+#about-me {
+	width:650px;
+	border: 1px solid #cccccc;
+	background-color: white;
+	height:200px;
+	margin-right:50px;
+}
+#connect-with-me {
+	width:30%;
+	border: 1px solid #cccccc;
+	background-color: white;
+	height:200px;
+	width:250px;
 }
 .container {
     width:960px;
 	margin: 0 auto;
+	margin-top:50px;
 }
