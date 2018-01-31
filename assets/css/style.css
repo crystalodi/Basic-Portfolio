@@ -19,6 +19,14 @@ h2 {
 	font-weight:bold;
 	font-family: "Georgia", Times New Roman, Times, serif;
 }
+footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:100px;
+	background-color:white;
+	text-align:center;
+}
 #main-name-header {
 	background-color: #4fa9a4;
 	width:9%;
@@ -55,11 +63,12 @@ h2 {
     width:1000px;
 	margin: 0 auto;
 	margin-top:50px;
+	height:100%;
 }
-.clearFix::after {
+.container::after {
 	clear:both;
 	content:"";
-	overflow:auto;
+	display:table;
 }
 #navMenu {
 	float:right;
