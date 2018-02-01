@@ -43,9 +43,13 @@ p {
 	color:white;
 }
 #connect-with-me,
+#contact-me,
+#my-portfolio,
 #about-me {
 	float:left;
 }
+#contact-me,
+#my-portfolio,
 #about-me {
 	width:550px;
 	border: 1px solid #cccccc;
