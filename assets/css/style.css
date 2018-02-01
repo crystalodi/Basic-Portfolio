@@ -11,7 +11,10 @@ header {
 	margin:0;
 }
 hr {
-	border-top: 2px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #ccccc;
 }
 h2 {
 	color: #4fa9a4;
@@ -33,6 +36,7 @@ p {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	font-weight:bold;
+	margin-bottom:15px;
 }
 #main-name-header {
 	background-color: #4fa9a4;
@@ -45,23 +49,24 @@ p {
 #connect-with-me,
 #contact-me,
 #my-portfolio,
+#placeholder-img,
 #about-me {
 	float:left;
 }
 #contact-me,
 #my-portfolio,
 #about-me {
-	width:550px;
+	width:50%;
 	border: 1px solid #cccccc;
 	background-color: white;
-	height:200px;
+	height:100%;
 	margin-right:50px;
 	padding-top:25px;
 	padding-left:25px;
 	padding-right:25px;
 }
 #connect-with-me {
-	width:30%;
+	width:50%;
 	border: 1px solid #cccccc;
 	background-color: white;
 	height:200px;
@@ -72,6 +77,12 @@ p {
 }
 #navMenu {
 	float:right;
+}
+#placeholder-img {
+	width:200px;
+	height:200px;
+	margin-right:10px;
+	border: 1px solid #4fa9a4;
 }
 .container {
     width:1000px;
