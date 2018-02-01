@@ -84,6 +84,9 @@ p {
 	margin-right:10px;
 	border: 1px solid #4fa9a4;
 }
+#my-portfolio {
+	height:350px;
+}
 .container {
     width:1000px;
 	margin: 0 auto;
@@ -94,4 +97,10 @@ p {
 	clear:both;
 	content:"";
 	display:table;
+}
+.placeholder-img {
+	float:left;
+	margin-right:19px;
+	border: 1px solid #4fa9a4;
+	margin-left:5px;
 }
