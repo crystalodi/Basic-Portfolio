@@ -11,6 +11,9 @@ header {
 	border-bottom: 3px solid #cccccc;
 	height:100px;
 	margin:0;
+	position:absolute;
+	top:0px;
+	width:100%;
 }
 hr {
 	border-top: 1px solid #cccccc;
@@ -116,8 +119,8 @@ textarea {
 .container {
     width:1000px;
 	margin: 0 auto;
-	margin-top:50px;
 	height:100%;
+	margin-top:150px;
 }
 .container::after {
 	clear:both;
