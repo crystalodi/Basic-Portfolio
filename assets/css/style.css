@@ -62,6 +62,9 @@ input {
 }
 input[type=submit] {
 	margin-top:20px;
+	border:none;
+	background-color: #4fa9a4;
+	padding:10px 10px 10px 10px;
 }
 textarea {
 	float:left;
